@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(178, 231, 178);
+            border-radius: 400px;
+            animation: anim ease-in-out 4s infinite alternate;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .blue {
+            background-color: rgb(216, 140, 231);
+            width: 60px;
+            height: 60px;
+
+        }
+
+        @keyframes anim {
+            from {
+                transform: scale(1);
+            }
+
+            to {
+                transform: scale(1.5);
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box">
+            <div class="box blue">
+                <p>NISHA PATEL</p>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
